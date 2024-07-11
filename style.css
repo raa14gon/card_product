@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background:#F3EBE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 450px;
+    width: 600px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_image {
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    background: url('images/image-product-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_info {
+    border-radius: 0px 15px 15px 0px;
+    width: 50%;
+    padding: 33px;
+    background-color: white;
+    align-items: center;
+}
+
+.div_info span { 
+    font-weight: 800;
+    font-size: 15px;
+    color: gray;
+    letter-spacing: 5px;
+}
+
+.div_info h1 {
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 26px;
+    
+}
+
+.div_info h2 {
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+
+}
+
+.div_price {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.div_price h1{
+    color: #3D816A;
+    margin-top: -10px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div_price del {
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div_buybotton {
+    margin-top: 40px;
+    background-color: #3D816A;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_buybotton span {
+    font-size: 12px;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 0px;
+}
+
+
+
+
